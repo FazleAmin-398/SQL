@@ -1,1 +1,56 @@
+📊 Ecommerce SQL Queries
 
+This repository contains an Ecommerce SQL project with queries for analyzing customer behavior, orders, products, payments, and support tickets.
+The queries are written in MySQL and cover essential business insights such as sales performance, customer trends, and product analysis.
+
+📂 File Included
+
+Ecommerce.sql – A collection of SQL queries for ecommerce analysis.
+
+🚀 Features & Queries
+
+Some of the key insights you can extract using the provided SQL queries:
+
+Customer Insights
+
+Customers from Pakistan
+
+Customers who signed up after March 2023
+
+Customers who never placed an order
+
+Customers ranked by total spending
+
+Order & Sales Analysis
+
+Total number of orders
+
+Orders placed in June 2023
+
+Average order value
+
+Monthly sales totals
+
+Recent order for each customer
+
+Product Analysis
+
+Products in the "Electronics" category
+
+Most sold product
+
+Top 3 most purchased products (using CTE)
+
+Total revenue by product category
+
+Revenue & Payment
+
+Total revenue from all orders
+
+Percentage of orders by payment method
+
+Support Analysis
+
+Count of unresolved support tickets
+
+Customer names with issue types
