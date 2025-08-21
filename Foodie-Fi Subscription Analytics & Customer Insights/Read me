@@ -1,1 +1,63 @@
+# Foodie-Fi: Subscription Analytics & Customer Insights
 
+This repository contains the SQL solutions to a series of data analysis questions for **Foodie-Fi**, a fictional subscription-based streaming service. The case study focuses on analyzing customer subscription data to derive key business metrics, understand customer behavior, and calculate churn rates.
+
+## 📊 Project Overview
+
+Foodie-Fi aims to understand its customer base through its subscription data. This analysis answers critical business questions about customer growth, plan distribution, churn rates, and upgrade patterns using advanced SQL queries.
+
+## 🗃️ Database Schema
+
+The database consists of two main tables:
+
+### Table 1: `plans`
+- `plan_id` (INTEGER): The unique identifier for the plan.
+- `plan_name` (VARCHAR): The name of the subscription plan (e.g., 'trial', 'basic monthly', 'pro annual', 'churn').
+
+### Table 2: `subscriptions`
+- `customer_id` (INTEGER): The unique identifier for the customer.
+- `plan_id` (INTEGER): The identifier of the plan the customer is on.
+- `start_date` (DATE): The date when the customer started the subscription plan.
+
+## 📈 Key Analysis & SQL Queries
+
+The SQL file (`foodie_fi_analysis.sql`) includes queries to answer the following business questions:
+
+1.  **Total Customers:** How many unique customers has Foodie-Fi ever had?
+2.  **Monthly Trial Distribution:** What is the monthly distribution of trial plan start dates?
+3.  **Post-2020 Plans:** What plans started after 2020, and what is their event count?
+4.  **Customer Churn:** What is the customer count and percentage of customers who have churned?
+5.  **Post-Trial Churn:** How many customers churned immediately after their free trial, and what percentage is this?
+6.  **Plan Conversion:** What is the number and percentage of customer plans after their initial free trial?
+7.  **Plan Breakdown at Year-End:** What is the customer count and percentage breakdown of all plans at the end of 2020?
+8.  **Annual Plan Upgrades in 2020:** How many customers upgraded to an annual plan in 2020?
+9.  **Average Time to Annual Upgrade:** How many days on average does it take for a customer to upgrade to an annual plan?
+10. **Downgrades in 2020:** How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
+
+## 🛠️ Technologies Used
+
+-   **SQL:** For data analysis and querying.
+-   **MySQL / PostgreSQL:** The SQL dialect used is standard and should be compatible with most RDBMS.
+
+## 📁 Repository Structure
+Foodie-Fi-Case-Study/
+│
+├── foodie_fi_analysis.sql # Main SQL file containing all queries
+├── Case study (1).pdf # Original case study document (provided)
+└── README.md # This file
+
+text
+
+## 🚀 How to Use
+
+1.  **Set up your database:** Create a database and import the provided `plans` and `subscriptions` tables.
+2.  **Run the queries:** Open the `foodie_fi_analysis.sql` file in your database management tool (e.g., MySQL Workbench, pgAdmin, DBeaver).
+3.  **Execute queries:** Run the queries individually to see the results and insights for each question.
+
+## 🔍 Insights Highlights
+
+-   Foodie-Fi had a total of **1,000** unique customers.
+-   **9.2%** of customers churned directly after their free trial.
+-   After the trial, most customers (**54.6%**) moved to the basic monthly plan.
+-   By the end of 2020, **37.7%** of all recorded subscriptions were trial plans.
+-   **195** customers upgraded to an annual plan in 2020.
