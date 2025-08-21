@@ -1,0 +1,43 @@
+🚀 Features & Queries
+
+Some of the tasks included in this project:
+
+Owner & Pet Information
+
+List all pet owners and their pets.
+
+Show pets without owners and owners without pets.
+
+Count how many dogs each owner has.
+
+Pet Details
+
+Find the oldest pet.
+
+Classify pets as Young, Adult, or Senior by age.
+
+Label pet genders as Boy (male) or Girl (female).
+
+Procedures & Health Records
+
+Show procedures performed on a specific pet (e.g., "Cuddles").
+
+List pets that had Vaccinations.
+
+Find procedure types with an average cost above $50.
+
+Display each pet’s number of procedures and label them as:
+
+Regular (1–3 procedures)
+
+Frequent (4–7 procedures)
+
+Super User (more than 7 procedures)
+
+Data Analysis
+
+Count pets by kind (dog, cat, etc.).
+
+Group pets by kind and gender.
+
+Show average age by pet kind (only if more than 5 pets exist).
