@@ -1,0 +1,37 @@
+📖 Description
+
+This project is a relational database system for managing an online bookstore. It demonstrates the design and implementation of SQL queries to handle books, customers, and orders efficiently.
+
+The project includes:
+
+Database Schema:
+
+Books → stores book details (ID, title, stock, etc.)
+
+Customers → stores customer information
+
+Orders_Books → manages book orders and their quantities
+
+Key Features:
+
+Track available stock for each book
+
+Calculate ordered quantities and remaining stock dynamically
+
+Generate reports using JOIN, GROUP BY, and aggregate functions
+
+Handle edge cases with COALESCE for missing data
+
+Dataset:
+
+Sample data is provided in CSV format (Books.csv, Customers.csv, Orders.csv)
+
+Can be imported into MySQL or any relational DBMS
+
+Learning Outcomes:
+
+Practice SQL concepts (JOIN, GROUP BY, ORDER BY, aggregate functions)
+
+Work with real-world bookstore management use case
+
+Understand database normalization and query optimization
